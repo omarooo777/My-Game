@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png" />
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <link rel="stylesheet" href="../CSS/typing speed test game.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="logo">
+        <h1 class="logo-text"><a href="../index.html">Omarooo Games</a></h1>
+        <div class="one"></div>
+        <div class="two"></div>
+      </div>
+      <h2 class="tittle">Test Speed Game</h2>
+      <!-- custom select box using details -->
+      <h3 class="choose">Choose Your Level:</h3>
+      <details class="custom-select">
+        <summary class="radios">
+          <!-- <input
+            type="radio"
+            name="item"
+            id="default"
+            title="Choose Your Level"
+            checked
+          /> -->
+          <input
+            type="radio"
+            data-content=".easy"
+            name="item"
+            id="easy"
+            title="Easy"
+          />
+          <input
+            type="radio"
+            data-content=".normal"
+            name="item"
+            id="normal"
+            title="Normal"
+            checked
+          />
+          <input
+            type="radio"
+            data-content=".medium"
+            name="item"
+            id="medium"
+            title="Medium"
+          />
+          <input
+            type="radio"
+            data-content=".hard"
+            name="item"
+            id="hard"
+            title="Hard"
+          />
+        </summary>
+        <ul class="list">
+          <li>
+            <label for="easy">Easy<span></span></label>
+          </li>
+          <li><label for="normal">Normal</label></li>
+          <li><label for="medium">Medium</label></li>
+          <li><label data-content=".hard" for="hard">Hard</label></li>
+        </ul>
+      </details>
+      <div class="description-level">
+        <p class="easy">
+          In This Level You Will Have 20 Words To Write And You Will Have 10
+          Seconds For Each Word
+        </p>
+        <p class="normal active">
+          In This Level You Will Have 30 Words To Write And You Will Have 7
+          Seconds For Each Word
+        </p>
+        <p class="medium">
+          In This Level You Will Have 40 Words To Write And You Will Have 5
+          Seconds For Each Word
+        </p>
+        <p class="hard">
+          In This Level You Will Have 60 Words To Write And You Will Have 4
+          Seconds For Each Word
+        </p>
+      </div>
+      <h3 class="start">Start New Game</h3>
+
+      <div class="game-container hidden">
+        <div class="message">
+          You Are Playing On <span class="lvl"></span> Level & You Have
+          <span class="seconds"></span> Seconds To Type a Word
+        </div>
+        <div class="word">Word</div>
+        <input type="text" spellcheck="false" class="typing-input" />
+        <div class="control">
+          <div class="time">Time Left: <span></span></div>
+          <div class="score">
+            Score: <span class="got">0</span> From <span class="total"></span>
+          </div>
+        </div>
+        <div class="pop-up-window hidden">
+          <div>
+            <h2 class=""></h2>
+            <h2 class=""></h2>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-repeat"></i>
+            <a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+    <div class="game">
+      <div class="name">Typing Speed Test Game</div>
+      <div class="container">
+        <div class="message">
+          You Are Playing On <span class="lvl"></span> Level & You Have
+          <span class="seconds"></span> Seconds To Type a Word
+        </div>
+        <div class="start">Start Playing</div>
+        <div class="word"></div>
+        <input type="text" class="input-typing" />
+        <div class="coming-words"></div>
+        <div class="control">
+          <div class="time">Time Left: <span></span> Seconds</div>
+          <div class="score">
+            Score: <span class="got">0</span> From <span class="total"></span>
+          </div>
+        </div>
+        <div class="finish"></div>
+      </div>
+    </div> -->
+    <!-- <div class="start-game link settings minus plus about" id="audio-volume"><a href=""></a></div> -->
+    <script
+      src="../JavaScript/typing speed test game.js"
+      type="module"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game</title>
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="../CSS/memory game.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="landing">
+      <h2 class="one-player">Play One Player</h2>
+      <h2 class="two-players">Play Two Players</h2>
+    </div>
+    <div class="controls hidden">
+      <input type="text" placeholder="Enter Your Name" class="first-input" maxlength="20" spellcheck="false">
+      <input type="text" placeholder="Second Player Name" class="second-input hidden" maxlength="20" spellcheck="false">
+      <button class="start-btn">Start Game</button>
+    </div>
+    <div class="info">
+      <div class="active">
+        <h3><span>Player Name:</span> <span class="first-name">Name</span></h3>
+        <div>
+          <span class="timer">Timer: <span class="number">90</span><span class="s">s</span></span>
+          <span class="wrong-tries">Wrong Tries: <span>0</span></span>
+        </div>
+      </div>
+      <div>
+        <h3>Second Player: <span class="second-name">Name</span></h3>
+        <div>
+          <span class="timer">Timer: <span class="number">90</span><span class="s">s</span></span>
+          <span class="wrong-tries">Wrong Tries: <span>0</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="game-container">
+      <div class="card-box" data-img="cake">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game cake.png"
+            alt="Cake Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="cake">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game cake.png"
+            alt="Cake Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="cola">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game cola.png"
+            alt="Cola Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="cola">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game cola.png"
+            alt="Cola Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="clown">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game clown-hat.png"
+            alt="Clown Hat Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="clown">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game clown-hat.png"
+            alt="Clown Hat Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="cookie">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game cookie.png"
+            alt="Cookie Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="cookie">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game cookie.png"
+            alt="Cookie Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="basket-ball">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game basket-ball.png"
+            alt="Basket Ball Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="basket-ball">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game basket-ball.png"
+            alt="Basket Ball Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="straw-hat">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game hat.png"
+            alt="Straw Hat Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="straw-hat">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game hat.png"
+            alt="Straw Hat Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="big-ben">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game big-ben.png"
+            alt="Big Ben Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="big-ben">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game big-ben.png"
+            alt="Big Ben Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="leaf">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game leaf.png"
+            alt="Leaf Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="leaf">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game leaf.png"
+            alt="Leaf Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="noodles">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game noodles.png"
+            alt="Noodles Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="noodles">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game noodles.png"
+            alt="Noodles Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="salad">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game salad.png"
+            alt="Salad Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="salad">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game salad.png"
+            alt="Salad Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="sweets">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game sweets.png"
+            alt="Sweets Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="sweets">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game sweets.png"
+            alt="Sweets Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="swords">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game swords.png"
+            alt="Swords Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="swords">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game swords.png"
+            alt="Swords Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="parrot">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game parrot.png"
+            alt="Parrot Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="parrot">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game parrot.png"
+            alt="Parrot Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="pizza">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game pizza.png"
+            alt="Pizza Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="pizza">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game pizza.png"
+            alt="Pizza Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="burger">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game burger.png"
+            alt="Burger Img"
+          />
+        </div>
+      </div>
+      <div class="card-box" data-img="burger">
+        <div class="face front"></div>
+        <div class="face back">
+          <img
+            src="../Imgs/memory game imgs/memory game burger.png"
+            alt="Burger Img"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="pop-up-window hidden">
+      <div class="box">
+        <div>
+          <h2 class=""></h2>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-repeat rematch"></i>
+          <a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="audios">
+      <audio src="../Audios/memory game/error-126627.mp3" id="fail"></audio>
+      <audio src="../Audios/memory game/training-program-correct2-88734.mp3" id="success"></audio>
+    </div>
+    <script src="../JavaScript/memory game.js" type="module"></script>
+  </body>
+</html>

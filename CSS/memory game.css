@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+}
+body {
+  max-height: 100vh;
+}
+.landing h2 {
+  margin: 0;
+  color: #A3EC84;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.landing h2:hover {
+  color: #79eb49;
+}
+.controls,
+.landing {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(30 132 177 / 90%);
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.controls input {
+  border: none;
+  outline: none;
+  padding: 7px 5px;
+  height: 40px;
+  width: 235px;
+  background-color: #e6f4f1;
+  color: #009688;
+  caret-color: #3f51b5;
+  font-size: 20px;
+  position: relative;
+}
+.controls button {
+  width: 235px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #00a2bf;
+  border: none;
+  outline: none;
+  color: #f9f871;
+}
+.info {
+  width: 80%;
+  margin: 0 auto 12px;
+  background-color: #e6f4f1;
+  padding: 10px;
+  border: 5px solid #00a2bf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 100px;
+}
+.info.two-players {
+  width: 100%;
+  position: relative;
+}
+@media (min-width: 970px) {
+  .info.two-players::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #00a2bf;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.info div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+}
+.info > div:last-of-type {
+  display: none;
+}
+.info.two-players > div:last-of-type {
+  display: flex ;
+}
+.info h3,
+.info > div:first-of-type h3 span:first-of-type {
+  margin: 0;
+  color: #008977;
+  font-weight: 500;
+}
+.info h3 span {
+  color: #00284e;
+}
+/* .info div {
+  margin-top: 5px;
+} */
+.info > div {
+  opacity: 0.3;
+}
+.info > div.active {
+  opacity: 1;
+} 
+.info div > span:first-of-type {
+  margin-right: 15px;
+}
+.info div > span:first-of-type .number,
+.info div > span:first-of-type .s {
+  color: #00a0f3;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.info div > span:last-of-type span {
+  color: #f00;
+  font-weight: 500;
+}
+.game-container {
+  margin: auto;
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.game-container .card-box {
+  position: relative;
+  width: calc((100% + 50px) / 7);
+  height: calc((100% + 40px) / 6);
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.stop-clicking {
+  pointer-events: none;
+}
+.game-container .card-box.is-flipped,
+.game-container .card-box.has-matched {
+  transform: rotateY(180deg);
+}
+.game-container .card-box .face {
+  position: absolute;
+  backface-visibility: hidden;
+  background-color: #00bfb8;
+  border: 5px solid #1e84b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.game-container .card-box .front::before {
+  content: "?";
+  color: #fff;
+  font-size: 6vw;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-container .card-box .back {
+  transform: rotateY(180deg);
+}
+.game-container .card-box .face img {
+  max-width: 80%;
+  max-height: 80%;
+}
+.pop-up-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(30 132 177 / 90%);
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pop-up-window .box {
+  background-color: #e6f4f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pop-up-window .box h2 {
+  margin: 0 0 20px;
+}
+.pop-up-window .box h2.loss {
+  color: #f44336;
+}
+.pop-up-window .box h2.win {
+  color: #009688;
+}
+.pop-up-window .box .icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+}
+.pop-up-window .box .icons i {
+  color: #03a9f4;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}

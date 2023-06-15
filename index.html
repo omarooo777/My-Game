@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png" /> -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Imgs/logo.png"
+    />
+    <title>Omarooo Games</title>
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-start-page">
+      <div class="logo">
+        <h1 class="logo-text"><a href="./index.html">Omarooo Games</a></h1>
+        <div class="one"></div>
+        <div class="two"></div>
+      </div>
+      <div class="options">
+        <h3 class="start-game">Start Game</h3>
+        <h3 class="settings">Settings</h3>
+        <h3 class="about">About</h3>
+      </div>
+
+      <!-- Start Game Section -->
+      <div class="start-game-container hidden">
+        <div class="games-box">
+          <div class="typing-speed-test-game">
+            <img src="./Imgs/Typing Speed Test Game.jpg" alt="Typing Speed Test Game Image">
+            <div class="link">
+              <a href="./HTML/typing speed test game.html">Typing Speed Test Game</a>
+            </div>
+          </div>
+        </div>
+        <div class="games-box">
+          <div class="typing-speed-test-game">
+            <img src="./Imgs/memory game imgs/memory game.jpg" alt="Memory Game Image">
+            <div class="link">
+              <a href="./HTML/memory game.html">Memory Game</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Setting Section -->
+
+      <div class="settings-container hidden">
+        <h2>Settings</h2>
+        <div class="audio-box">
+          <div class="volume">
+            <i class="fa-solid fa-minus minus"></i>
+            <input type="range" id="audio-volume" max="100" value="50" />
+            <i class="fa-solid fa-plus plus"></i>
+          </div>
+          <!-- <div class="play-pause-icoc"> -->
+          <!-- <audio src="./Audios/Chrono Trigger- Main Theme.mp4" loop autoplay class="audio"></audio> -->
+          <!-- <audio id="player" class="audio" loop>
+            <source
+              src="./Audios/Chrono Trigger- Main Theme.mp4"
+              type="audio/mp3"
+            />
+          </audio> -->
+          <!-- <i class="fa-solid fa-play"></i> -->
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <!-- About Section -->
+
+      <div class="about-container hidden">
+        <h2>About</h2>
+        <p>
+          This website contains a wide variety of games which are designed using
+          HTML, CSS and JavaScript.
+        </p>
+        <h2>Music</h2>
+        <p>Chrono Trigger- Main Theme</p>
+        <h3 class="developer">
+          Designed and built by <span>Omar Khaled</span>
+        </h3>
+      </div>
+    </div>
+    <script src="./JavaScript/main.js" type="module"></script>
+  </body>
+</html>
