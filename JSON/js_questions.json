@@ -1,0 +1,242 @@
+[
+  {
+    "title": "What is JavaScript?",
+    "answer_1": "JavaScript is a scripting language used to make the website interactive",
+    "answer_2": "JavaScript is an assembly language used to make the website interactive",
+    "answer_3": "avaScript is a compiled language used to make the website interactive",
+    "answer_4": "None of the mentioned",
+    "right_answer": "JavaScript is a scripting language used to make the website interactive"
+  },
+  {
+    "title": "Which of the following is correct about JavaScript?",
+    "answer_1": "JavaScript is an Object-Based language",
+    "answer_2": "JavaScript is Assembly-language",
+    "answer_3": "JavaScript is an Object-Oriented language",
+    "answer_4": "JavaScript is a High-level language",
+    "right_answer": "JavaScript is an Object-Based language"
+  },
+  {
+    "title": "Among the given statements, which statement defines closures in JavaScript?",
+    "answer_1": "JavaScript is a function that is enclosed with references to its inner function scope",
+    "answer_2": "JavaScript is a function that is enclosed with references to its lexical environment",
+    "answer_3": "JavaScript is a function that is enclosed with the object to its inner function scope",
+    "answer_4": "None of the mentioned",
+    "right_answer": "JavaScript is a function that is enclosed with references to its lexical environment"
+  },
+  {
+    "title": "Arrays in JavaScript are defined by which of the following statements?",
+    "answer_1": "It is an ordered list of objects",
+    "answer_2": "It is an ordered list of string",
+    "answer_3": "It is an ordered list of functions",
+    "answer_4": "It is an ordered list of values",
+    "right_answer": "It is an ordered list of values"
+  },
+  {
+    "title": "Which of the following is not javascript data types?",
+    "answer_1": "Null type",
+    "answer_2": "Undefined type",
+    "answer_3": "Number type",
+    "answer_4": "All of the mentioned",
+    "right_answer": "All of the mentioned"
+  },
+  {
+    "title": "Where is Client-side JavaScript code is embedded within HTML documents?",
+    "answer_1": "A URL that uses the special javascript:code",
+    "answer_2": "A URL that uses the special javascript:protocol",
+    "answer_3": "A URL that uses the special javascript:encoding",
+    "answer_4": "A URL that uses the special javascript:stack",
+    "right_answer": "A URL that uses the special javascript:protocol"
+  },
+  {
+    "title": " Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+    "answer_1": "Position",
+    "answer_2": "Standard",
+    "answer_3": "Window",
+    "answer_4": "Location",
+    "right_answer": "Window"
+  },
+  {
+    "title": " Which of the following can be used to call a JavaScript Code Snippet?",
+    "answer_1": "Function/Method",
+    "answer_2": "Preprocessor",
+    "answer_3": "Triggering Event",
+    "answer_4": "RMI",
+    "right_answer": "Function/Method"
+  },
+  {
+    "title": "Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?",
+    "answer_1": "will be displayed as JavaScript text on the browser",
+    "answer_2": "will throw errors and exceptions",
+    "answer_3": "must be restricted to a Unix Machine only",
+    "answer_4": "will work perfectly well on a Windows Machine",
+    "right_answer": "will work perfectly well on a Windows Machine"
+  },
+  {
+    "title": "Which of the following scoping type does JavaScript use?",
+    "answer_1": "Sequential",
+    "answer_2": "Segmental",
+    "answer_3": "Lexical",
+    "answer_4": "Literal",
+    "right_answer": "Lexical"
+  },
+  {
+    "title": "What is the basic difference between JavaScript and Java?",
+    "answer_1": "Functions are considered as fields",
+    "answer_2": "Functions are values, and there is no hard distinction between methods and fields",
+    "answer_3": "Variables are specific",
+    "answer_4": "There is no difference",
+    "right_answer": "Functions are values, and there is no hard distinction between methods and fields"
+  },
+  {
+    "title": "Why JavaScript Engine is needed?",
+    "answer_1": "Compiling the JavaScript",
+    "answer_2": "Interpreting the JavaScript",
+    "answer_3": "Both Compiling & Interpreting the JavaScript",
+    "answer_4": "Parsing the javascript",
+    "right_answer": "Interpreting the JavaScript"
+  },
+  {
+    "title": "Which of the following methods/operation does javascript use instead of == and !=?",
+    "answer_1": "JavaScript uses equalto()",
+    "answer_2": "JavaScript uses equals() and notequals() instead",
+    "answer_3": "JavaScript uses bitwise checking",
+    "answer_4": "JavaScript uses === and !== instead",
+    "right_answer": "JavaScript uses === and !== instead"
+  },
+  {
+    "title": "Why event handlers is needed in JS?",
+    "answer_1": "Adds innerHTML page to the code",
+    "answer_2": "Allows JavaScript code to alter the behaviour of windows",
+    "answer_3": "Change the server location",
+    "answer_4": "Performs handling of exceptions and occurrences",
+    "right_answer": "Allows JavaScript code to alter the behaviour of windows"
+  },
+  {
+    "title": "Which of the following is not a framework?",
+    "answer_1": "JavaScript .NET",
+    "answer_2": "Cocoa JS",
+    "answer_3": "JavaScript",
+    "answer_4": "jQuery",
+    "right_answer": "JavaScript"
+  },
+  {
+    "title": "Which of the following is the property that is triggered in response to JS errors?",
+    "answer_1": "onclick",
+    "answer_2": "onmessage",
+    "answer_3": "onexception",
+    "answer_4": "onerror",
+    "right_answer": "onerror"
+  },
+  {
+    "title": "Which of the following is not an error in JavaScript?",
+    "answer_1": "Division by zero",
+    "answer_2": "Missing of Bracket",
+    "answer_3": "Syntax error",
+    "answer_4": "Missing of semicolons",
+    "right_answer": "Division by zero"
+  },
+  {
+    "title": "Which function among the following lets to register a function to be invoked once?",
+    "answer_1": "setTimeout()",
+    "answer_2": "setInterval()",
+    "answer_3": "setTotaltime()",
+    "answer_4": "settime()",
+    "right_answer": "setTimeout()"
+  },
+  {
+    "title": "Which function among the following lets to register a function to be invoked repeatedly after a certain time?",
+    "answer_1": "setTimeout()",
+    "answer_2": "setTotaltime()",
+    "answer_3": "setInterval()",
+    "answer_4": "settime()",
+    "right_answer": "setInterval()"
+  },
+  {
+    "title": "Which is the handler method used to invoke when uncaught JavaScript exceptions occur?",
+    "answer_1": "Onhalt",
+    "answer_2": "Onerror",
+    "answer_3": "Both onhalt and onerror",
+    "answer_4": "Onsuspend",
+    "right_answer": "Onerror"
+  },
+  {
+    "title": "Which property is used to obtain browser vendor and version information?",
+    "answer_1": "modal",
+    "answer_2": "version",
+    "answer_3": "browser",
+    "answer_4": "navigator",
+    "right_answer": "navigator"
+  },
+  {
+    "title": "Which method receives the return value of setInterval() to cancel future invocations?",
+    "answer_1": "clearInvocation()",
+    "answer_2": "cancelInvocation()",
+    "answer_3": "clear()",
+    "answer_4": "clearInterval()",
+    "right_answer": "clearInterval()"
+  },
+  {
+    "title": "The setTimeout() belongs to which object?",
+    "answer_1": "Element",
+    "answer_2": "Window",
+    "answer_3": "Location",
+    "answer_4": "Event",
+    "right_answer": "Window"
+  },
+  {
+    "title": "Which method receives the return value of setTimeout() to cancel future invocations?",
+    "answer_1": "clearTimeout()",
+    "answer_2": "clearInterval()",
+    "answer_3": "clearSchedule()",
+    "answer_4": "cancelInvocation()",
+    "right_answer": "clearTimeout()"
+  },
+  {
+    "title": "What will happen if we call setTimeout() with a time of 0 ms?",
+    "answer_1": "Placed in stack",
+    "answer_2": "Placed in queue",
+    "answer_3": "Will run continuously",
+    "answer_4": "Will execute immediately",
+    "right_answer": "Placed in queue"
+  },
+  {
+    "title": "What are the three important manipulations done in a for loop on a loop variable?",
+    "answer_1": "Updation, Incrementation, Initialization",
+    "answer_2": "Testing, Updation, Testing",
+    "answer_3": "Initialization,Testing, Updation",
+    "answer_4": "Initialization,Testing, Incrementation",
+    "right_answer": "Initialization,Testing, Updation"
+  },
+  {
+    "title": "One of the special features of an interpreter in reference with the for loop is that",
+    "answer_1": "Before each iteration, the interpreter evaluates the variable expression and assigns the name of the property",
+    "answer_2": "The iterations can be infinite when an interpreter is used",
+    "answer_3": "The body of the loop is executed only once",
+    "answer_4": "the iteration is finite when an interpreter is used",
+    "right_answer": "Before each iteration, the interpreter evaluates the variable expression and assigns the name of the property"
+  },
+  {
+    "title": "What will happen if the body of a for/in loop deletes a property that has not yet been enumerated?",
+    "answer_1": "The property will be stored in a cache",
+    "answer_2": "The loop will not run",
+    "answer_3": "That property will not be enumerated",
+    "answer_4": "The property will be enumerated",
+    "right_answer": "That property will not be enumerated"
+  },
+  {
+    "title": "What will be the step of the interpreter in a jump statement when an exception is thrown?",
+    "answer_1": "The interpreter stops its work",
+    "answer_2": "The interpreter throws an error",
+    "answer_3": "The interpreter jumps to the nearest enclosing exception handler",
+    "answer_4": "The interpreter throws another exception",
+    "right_answer": "The interpreter jumps to the nearest enclosing exception handler"
+  },
+  {
+    "title": "Among the keywords below, which one is not a statement?",
+    "answer_1": "debugger",
+    "answer_2": "with",
+    "answer_3": "if",
+    "answer_4": "use strict",
+    "right_answer": "use strict"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "title": "JSON stands for",
+    "answer_1": "JavaScript Object Notation",
+    "answer_2": "Java Object Notation",
+    "answer_3": "JavaScript Object Normalization",
+    "answer_4": "JavaScript Object-Oriented Notation",
+    "right_answer": "JavaScript Object Notation"
+  },
+  {
+    "title": "JSON is a _____ for storing and transporting data.",
+    "answer_1": "xml format",
+    "answer_2": "text format",
+    "answer_3": "JavaScript",
+    "answer_4": "php format",
+    "right_answer": "text format"
+  },
+  {
+    "title": "The JSON syntax is a subset of the _____ syntax.",
+    "answer_1": "Ajax",
+    "answer_2": "Php",
+    "answer_3": "HTML",
+    "answer_4": "JavaScript",
+    "right_answer": "JavaScript"
+  },
+  {
+    "title": "Who is the creator of JSON?",
+    "answer_1": "Alvin Alexander",
+    "answer_2": "Rasmus Lerdorf",
+    "answer_3": "Douglas Crockford",
+    "answer_4": "Jesse James Garrett",
+    "right_answer": "Douglas Crockford"
+  },
+  {
+    "title": "In the JSON syntax, data is separated by _____.",
+    "answer_1": "Semicolons",
+    "answer_2": "Commas",
+    "answer_3": "Colons",
+    "answer_4": "Hyper",
+    "right_answer": "Commas"
+  },
+  {
+    "title": "In the JSON syntax, array is written within in ____.",
+    "answer_1": "Square brackets",
+    "answer_2": "Curley braces",
+    "answer_3": "Paratheses",
+    "answer_4": "None of the mentioned",
+    "right_answer": "Square brackets"
+  },
+  {
+    "title": "What are the features of JSON?",
+    "answer_1": "Simplicity",
+    "answer_2": "Openness",
+    "answer_3": "Extensibility",
+    "answer_4": "All of the mentioned",
+    "right_answer": "All of the mentioned"
+  },
+  {
+    "title": "Which is the correct symbol to insert a comment in JSON?",
+    "answer_1": "//",
+    "answer_2": "/* */",
+    "answer_3": "<!-- -->",
+    "answer_4": "JSON doesn't support the comments",
+    "right_answer": "JSON doesn't support the comments"
+  },
+  {
+    "title": "In the JSON syntax, data is in ____ pairs.",
+    "answer_1": "class/object",
+    "answer_2": "name/value",
+    "answer_3": "datatype/variable",
+    "answer_4": "value/=",
+    "right_answer": "name/value"
+  },
+  {
+    "title": "What is the correct syntax of writing JSON name/value pair, where the value is of string type?",
+    "answer_1": "\"name\" : \"value\"",
+    "answer_2": "\"name\" : value",
+    "answer_3": "\"name\" : 'value'",
+    "answer_4": "'name' : 'value'",
+    "right_answer": "\"name\" : \"value\""
+  },
+  {
+    "title": "What is the file type for JSON files?",
+    "answer_1": ".jsn",
+    "answer_2": ".js",
+    "answer_3": ".json",
+    "answer_4": ".jso",
+    "right_answer": ".json"
+  },
+  {
+    "title": "What is the MIME type for JSON text?",
+    "answer_1": "application/json",
+    "answer_2": "xml/json",
+    "answer_3": "application/js",
+    "answer_4": "xml/js",
+    "right_answer": "application/json"
+  },
+  {
+    "title": "Which is not a JSON data type?",
+    "answer_1": "number",
+    "answer_2": "string",
+    "answer_3": "array",
+    "answer_4": "date",
+    "right_answer": "date"
+  },
+  {
+    "title": "Which is the correct example of a JSON object with name, age, and city?",
+    "answer_1": "{ \"record\":{\"name\":\"Alex\", \"age\":21, \"city\":\"London\"} }",
+    "answer_2": "{ record:{\"name\":\"Alex\", \"age\":21, \"city\":\"London\"} }",
+    "answer_3": "{ \"record\"={name:\"Alex\", \"age\":21, \"city\":\"London\"} }",
+    "answer_4": "{ \"record\":{\"name\":\"Alex\", \"age\":21, city:London} }",
+    "right_answer": "{ \"record\":{\"name\":\"Alex\", \"age\":21, \"city\":\"London\"} }"
+  },
+  {
+    "title": "Which of these is an example of a proper JSON array?",
+    "answer_1": "{ students:[\"Alex\", \"Alvin\", \"Bobby\"] }",
+    "answer_2": "{ students=[\"Alex\", \"Alvin\", \"Bobby\"] }",
+    "answer_3": "{ \"students\":[\"Alex\", \"Alvin\", \"Bobby\"] }",
+    "answer_4": "{ \"students\":{[\"Alex\", \"Alvin\", \"Bobby\"]} }",
+    "right_answer": "{ \"students\":[\"Alex\", \"Alvin\", \"Bobby\"] }"
+  },
+  {
+    "title": "How to create JSON Boolean object?",
+    "answer_1": "{\"name\"=true/false}",
+    "answer_2": "{'name':true/false}",
+    "answer_3": "{\"name\":true/false}",
+    "answer_4": "{name:true/false}",
+    "right_answer": "{\"name\":true/false}"
+  },
+  {
+    "title": "A common use of JSON is ________.",
+    "answer_1": "to update data into the database",
+    "answer_2": "to retrieve data from the database",
+    "answer_3": "to exchange data to/from a web server",
+    "answer_4": "None of the mentioned",
+    "right_answer": "to exchange data to/from a web server"
+  },
+  {
+    "title": "Which function is used to convert text into a JavaScript object?",
+    "answer_1": "JSON.parse()",
+    "answer_2": "string.parse()",
+    "answer_3": "object.parse()",
+    "answer_4": "All of the mentioned",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "Which function is used to convert a JavaScript object into a string?",
+    "answer_1": "JSON.string()",
+    "answer_2": "JSON.stringify()",
+    "answer_3": "JSON.ToString()",
+    "answer_4": "All of the mentioned",
+    "right_answer": "JSON.stringify()"
+  },
+  {
+    "title": "Which PHP function is used to convert PHP objects into JSON?",
+    "answer_1": "json_encode()",
+    "answer_2": "phpjson_encode()",
+    "answer_3": "json_string()",
+    "answer_4": "json_object()",
+    "right_answer": "json_encode()"
+  }
+]

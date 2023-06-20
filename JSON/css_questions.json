@@ -1,0 +1,242 @@
+[
+  {
+    "title": "The full form of CSS is:",
+    "answer_1": "Cascading Style Sheets",
+    "answer_2": "Coloured Special Sheets",
+    "answer_3": "Color and Style Sheets",
+    "answer_4": "None of the mentioned",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "How can we change the background color of an element?",
+    "answer_1": "background-color",
+    "answer_2": "color",
+    "answer_3": "caret-color",
+    "answer_4": "None of the mentioned",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "How can we change the text color of an element?",
+    "answer_1": "background-color",
+    "answer_2": "element-color",
+    "answer_3": "color",
+    "answer_4": "None of the mentioned",
+    "right_answer": "color"
+  },
+  {
+    "title": "how many ways can CSS be written in?",
+    "answer_1": "one",
+    "answer_2": "two",
+    "answer_3": "three",
+    "answer_4": "four",
+    "right_answer": "three"
+  },
+  {
+    "title": "What type of CSS is generally recommended for designing large web pages?",
+    "answer_1": "Inline",
+    "answer_2": "Internal",
+    "answer_3": "External",
+    "answer_4": "None of the mentioned",
+    "right_answer": "External"
+  },
+  {
+    "title": "Which HTML tag is used to declare internal CSS?",
+    "answer_1": "<style>",
+    "answer_2": "<link>",
+    "answer_3": "<script>",
+    "answer_4": "None of the mentioned",
+    "right_answer": "<style>"
+  },
+  {
+    "title": "How can we select an element with a specific ID in CSS?",
+    "answer_1": "#",
+    "answer_2": ".",
+    "answer_3": "$",
+    "answer_4": "^",
+    "right_answer": "#"
+  },
+  {
+    "title": "How can we select an element with a specific Class in CSS?",
+    "answer_1": "#",
+    "answer_2": ".",
+    "answer_3": "$",
+    "answer_4": "^",
+    "right_answer": "."
+  },
+  {
+    "title": "How can we write comments in CSS?",
+    "answer_1": "/* */",
+    "answer_2": "//",
+    "answer_3": "<!-- -->",
+    "answer_4": "#",
+    "right_answer": "/* */"
+  },
+  {
+    "title": "Can negative values be allowed in padding property?",
+    "answer_1": "Yes",
+    "answer_2": "No",
+    "answer_3": "Depends on property",
+    "answer_4": "None of the mentioned",
+    "right_answer": "No"
+  },
+  {
+    "title": "The CSS property used to specify the transparency of an element",
+    "answer_1": "opacity",
+    "answer_2": "visibility",
+    "answer_3": "filter",
+    "answer_4": "transparency",
+    "right_answer": "opacity"
+  },
+  {
+    "title": "How can we specify the spacing between each letter in a text in CSS?",
+    "answer_1": "alpha-spacing",
+    "answer_2": "letter-spacing",
+    "answer_3": "character-spacing",
+    "answer_4": "between-spacing",
+    "right_answer": "letter-spacing"
+  },
+  {
+    "title": "What is the correct syntax for referring an external CSS?",
+    "answer_1": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+    "answer_2": "<style rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+    "answer_3": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.html\">",
+    "answer_4": "None of the mentioned",
+    "right_answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">"
+  },
+  {
+    "title": "Which of the following are valid ways to represent a colour in CSS?",
+    "answer_1": "A valid color name",
+    "answer_2": "RGB values",
+    "answer_3": "HEX values",
+    "answer_4": "All of the mentioned",
+    "right_answer": "All of the mentioned"
+  },
+  {
+    "title": "Which of the following is the correct way to select all h1 headers in a div element?",
+    "answer_1": "div h1",
+    "answer_2": "div-h1",
+    "answer_3": "h1",
+    "answer_4": "*",
+    "right_answer": "div h1"
+  },
+  {
+    "title": "We can make rounded borders around elements using which CSS element?",
+    "answer_1": "border-collapse",
+    "answer_2": "border-round",
+    "answer_3": "border-radius",
+    "answer_4": "border-circle",
+    "right_answer": "border-radius"
+  },
+  {
+    "title": "How can we set the maximum width of the elements content box using CSS?",
+    "answer_1": "height property",
+    "answer_2": "width property",
+    "answer_3": "max-height property",
+    "answer_4": "max-width property",
+    "right_answer": "max-width property"
+  },
+  {
+    "title": "Which CSS property is used to specify different border styles?",
+    "answer_1": "border-style",
+    "answer_2": "border",
+    "answer_3": "border-color",
+    "answer_4": "None of the mentioned",
+    "right_answer": "border-style"
+  },
+  {
+    "title": "Which of the following property specifies the look and design of an outline?",
+    "answer_1": "outline",
+    "answer_2": "outline-style",
+    "answer_3": "outline-font",
+    "answer_4": "outline-color",
+    "right_answer": "outline-style"
+  },
+  {
+    "title": "Which of the following are valid CSS position property values?",
+    "answer_1": "static",
+    "answer_2": "relative",
+    "answer_3": "fixed",
+    "answer_4": "All of the mentioned",
+    "right_answer": "All of the mentioned"
+  },
+  {
+    "title": "What does the inherit value for a property do?",
+    "answer_1": "Inherits the value of the parent element.",
+    "answer_2": "Invalid property name.",
+    "answer_3": "Changes the value of the parent element’s property.",
+    "answer_4": "None of the mentioned",
+    "right_answer": "Inherits the value of the parent element."
+  },
+  {
+    "title": "Setting an inline-block in CSS requires which of the following properties?",
+    "answer_1": "display",
+    "answer_2": "color",
+    "answer_3": "block",
+    "answer_4": "position",
+    "right_answer": "display"
+  },
+  {
+    "title": "Which of the following CSS property is used for controlling the layout?",
+    "answer_1": "display",
+    "answer_2": "color",
+    "answer_3": "block",
+    "answer_4": "text",
+    "right_answer": "display"
+  },
+  {
+    "title": "Which of the following CSS property specifies the origin of the background image?",
+    "answer_1": "background-origin",
+    "answer_2": "background-size",
+    "answer_3": "origin",
+    "answer_4": "background-image",
+    "right_answer": "background-origin"
+  },
+  {
+    "title": "How are custom fonts defined using CSS?",
+    "answer_1": "@font-face rule",
+    "answer_2": "Custom fonts cannot be defined",
+    "answer_3": "src tags",
+    "answer_4": "None of the mentioned",
+    "right_answer": "@font-face rule"
+  },
+  {
+    "title": "Which of the following are parts of the CSS box model?",
+    "answer_1": "Margins",
+    "answer_2": "Borders",
+    "answer_3": "Padding",
+    "answer_4": "All of the mentioned",
+    "right_answer": "All of the mentioned"
+  },
+  {
+    "title": "Which of the following CSS property specifies the type of list item marker?",
+    "answer_1": "list",
+    "answer_2": "list-style-type",
+    "answer_3": "ul",
+    "answer_4": "ol",
+    "right_answer": "list-style-type"
+  },
+  {
+    "title": "What value should be passed to the width parameter if we want an element, say a table, to span the entire width of the screen?",
+    "answer_1": "100%",
+    "answer_2": "50%",
+    "answer_3": "0%",
+    "answer_4": "100vh",
+    "right_answer": "100%"
+  },
+  {
+    "title": "Which of the following properties is used to align text in CSS?",
+    "answer_1": "text-align",
+    "answer_2": "text-alignment",
+    "answer_3": "text",
+    "answer_4": "text-position",
+    "right_answer": "text-align"
+  },
+  {
+    "title": "Which of the following CSS properties specifies the stack order of elements?",
+    "answer_1": "over-layer",
+    "answer_2": "overlap",
+    "answer_3": "z-index",
+    "answer_4": "None of the mentioned",
+    "right_answer": "z-index"
+  }
+]

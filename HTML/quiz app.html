@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="#" />
     <title>Quiz App</title>
     <!-- Quiz App CSS file -->
     <link rel="stylesheet" href="../CSS/quiz app.css" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../CSS/all.min.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,13 +18,13 @@
     />
   </head>
   <body>
-    <!-- <div class="landing">
-      <h3>Choose Category: </h3>
+    <div class="landing">
+      <h3>Choose Category:</h3>
       <details class="custom-select">
         <summary class="radios">
           <input
             type="radio"
-            data-content="HTML"
+            data-file="html_questions.json"
             name="item"
             id="html"
             title="HTML"
@@ -29,21 +32,21 @@
           />
           <input
             type="radio"
-            data-content="CSS"
+            data-file="css_questions.json"
             name="item"
             id="css"
             title="CSS"
           />
           <input
             type="radio"
-            data-content="JavaScript"
+            data-file="js_questions.json"
             name="item"
             id="js"
             title="JavaScript"
           />
           <input
             type="radio"
-            data-content="JSON"
+            data-file="json_questions.json"
             name="item"
             id="json"
             title="JSON"
@@ -61,36 +64,35 @@
       <div class="start-box">
         <h3 class="start-btn">Start Quiz</h3>
       </div>
-    </div> -->
+    </div>
     <div class="quiz-container">
       <div class="info">
         <h2>Category: <span>HTML</span></h2>
-        <div class="questions-count">Questions: <span>1</span> From 20</div>
+        <div class="questions-count">Question: <span>1</span> From 15</div>
       </div>
-      <div class="question-area">
-        <h3>Which of the following HTML element is used for canvas graphics?</h3>
-      </div>
-      <div class="answer-area">
-        <div class="answer-box">
-          <input type="radio" name="answers" id="answer_1">
-          <label for="answer_1">&lt;css&gt;</label>
-        </div>
-        <div class="answer-box">
-          <input type="radio" name="answers" id="answer_2">
-          <label for="answer_2">&lt;paint&gt;</label>
-        </div>
-        <div class="answer-box">
-          <input type="radio" name="answers" id="answer_3">
-          <label for="answer_3">&lt;canvas&gt;</label>
-        </div>
-        <div class="answer-box">
-          <input type="radio" name="answers" id="answer_4">
-          <label for="answer_4">&lt;graphic&gt;</label>
-        </div>
-      </div>
+      <div class="question-area"></div>
+      <div class="answer-area"></div>
       <div class="controls">
-        <div class="timer">1:30</div>
-        <button class="next">Submit Answer</button>
+        <div class="timer">01:30</div>
+        <button class="btn submit-ans">Submit Answer</button>
+        <button class="btn next hidden">Next Question</button>
+      </div>
+      <div class="results"></div>
+      <div class="icons hidden">
+        <i class="fa-solid fa-repeat rematch"></i>
+        <a href="../index.html"
+          ><i class="fa-solid fa-right-from-bracket"></i
+        ></a>
+      </div>
+      <div class="audios">
+        <audio
+          src="../Audios/memory game/error-126627.mp3"
+          class="wrong"
+        ></audio>
+        <audio
+          src="../Audios/memory game/training-program-correct2-88734.mp3"
+          id="correct"
+        ></audio>
       </div>
     </div>
     <script src="../JavaScript/quiz app.js" type="module"></script>
